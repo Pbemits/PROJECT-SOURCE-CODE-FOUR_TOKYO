@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+.css-flex {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.css-text-span {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+.css-text-span-opct {
+    opacity: 0.6;
+}
+.css-text-span-opct-hv:hover {
+    opacity: 0.2;
+}
+.css-margn-bt-100 {
+    margin-bottom: 100px;
+}
+.css-margn-bt-5 {
+    margin-left: 5px;
+}
+.css-bd-bt {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,28 @@
+@media (min-width: 740px) and (max-width: 768px) {
+    .website__main {
+        max-width: 100%;
+    }
+    .content-section-element
+    .content-element-img {
+        width: 728px !important;
+        height: 482px !important;
+    }
+}
+@media (max-width: 739px) {
+    .content-section-element
+    .content-element-img {
+        width: 394px !important;
+        height: 260px !important;
+    }
+    #header__main
+    .header__menu {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10px !important;
+    }
+    .heading-wrapper
+    .blog-content {
+        padding: 0 20px;
+        text-align: center;
+    }
+}
